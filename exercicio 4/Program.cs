@@ -20,7 +20,7 @@ namespace exercicio_4
             }
             for (int i = 0; i < 11; i++)
             {
-                Console.WriteLine(numero + "*" + i + "=" + numero*i);
+                Console.WriteLine(numero + "x" + i + "=" + numero*i);
             }
             Console.ReadKey();
         }
