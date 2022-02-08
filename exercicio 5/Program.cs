@@ -19,13 +19,19 @@ namespace exercicio_5
                 Console.ResetColor();
                 goto volta1;
             }
+            Console.Clear();
             for (int i = numero; i > 0; i--)
             {
-                Console.Write(i + "*");
+            
+                  
+                if (i != 1)
+                    Console.Write(i + "*");
+                else
+                    Console.Write(i);
                 resultado = i * resultado;
             }
-            Console.Write("=");
-          Console.Write(" " + resultado);
+            Console.Write(" = ");
+          Console.Write(resultado);
             Console.ReadKey();
         }
     }
